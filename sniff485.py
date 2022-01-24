@@ -28,8 +28,8 @@ import hexdump
 import sys
 from docopt import docopt
 
-def_device = '/dev/rs485'
-def_baud = 115200
+def_device = 'COM4'
+def_baud = 9600
 
 defBurstInt = 3.0           # One second default timeout
 
